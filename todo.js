@@ -3,7 +3,9 @@ angular.module('todoApp', [])
     var todoList = this;
     todoList.todos = [
       {text:'learn AngularJS', done:true},
-      {text:'build an AngularJS app', done:false}];
+      {text:'build an AngularJS app', done:false};
+      {text:'learn Angular', done:true},
+      {text:'build an Angular app', done:false}];
  
     todoList.addTodo = function() {
       todoList.todos.push({text:todoList.todoText, done:false});
