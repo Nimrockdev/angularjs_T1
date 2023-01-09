@@ -3,9 +3,14 @@ angular.module('todoApp', [])
     var todoList = this;
     todoList.todos = [
       {text:'learn AngularJS', done:true},
-      {text:'build an AngularJS app', done:false};
+      {text:'build an AngularJS app', done:false},
       {text:'learn Angular', done:true},
-      {text:'build an Angular app', done:false}];
+      {text:'build an Angular app', done:false},
+      {text:'learn React', done:false},
+      {text:'build an React app', done:false},
+      {text:'build an Svelt app', done:false},
+      {text:'build an React wheater app', done:false},
+      {text:'build an Angular wheater app', done:false}];
  
     todoList.addTodo = function() {
       todoList.todos.push({text:todoList.todoText, done:false});
